@@ -1,5 +1,5 @@
 # Milestone Project Group Work Guide
-To complete this project successfuly, you will have to use GitHub as a collaborative tool and develop some strategies for working together with your team. Here are some tips for how to go about it.
+To complete this project successfully, you will have to use GitHub as a collaborative tool and develop some strategies for working together with your team. Here are some tips for how to go about it.
 
 ## Initial setup
 Choose one person to start the repo. They should:
@@ -19,7 +19,7 @@ git push -u origin master
 ## Example starting folder structure
 A lot of your project structure will come from the pre-existing create-react-app code. If you and your team want a different folder structure than the one suggested here, feel free to experiment!
 - In this example, you would create the **server** folder to hold your Node server code
-- Use an **.env** file in the root directory if needed for API keys or other secrest
+- Use an **.env** file in the root directory if needed for API keys or other secrets
 - Certain files and directories will be automatically installed with `npm i`, including **node_modules** and **package-lock.json**
 - No matter which structure you end up with, keep it in mind when importing modules and components
 ```
@@ -78,11 +78,11 @@ When a teammates says **main** has been updated and you want the code in your br
 - Add and commit your work with `git add .` & `git commit -m "<message>"`
 - Run `git pull origin main` while checked out to your branch
 
-## Merge conflics
-If you need to resolve merge conflics:
+## Merge conflicts
+If you need to resolve merge conflicts:
 - You will get some indication near the conflicted file names in VS Code
 - Try to work through them file by file with your team
-  - Click the link at the top for "Accept Current Change" or "Accept Incoming Change" (depeding on which is more correct)
+  - Click the link at the top for "Accept Current Change" or "Accept Incoming Change" (depending on which is more correct)
 - Once resolved: `git add .`, `git commit -m "commit after merge"`, `git push`
 
 ## General tips
@@ -100,7 +100,7 @@ If you need to resolve merge conflics:
         - [Atlas](https://www.mongodb.com/cloud/atlas/register) (MongoDB)
         - [Supabase](https://supabase.com/database) (PostgreSQL)
 - Always always ALWAYS stay in contact with each other about the project. Communication is key!
-- Have documetation and resources ready to go if you need them
+- Have documentation and resources ready to go if you need them
 - If you are stuck on something for a while:
   - First ask if anyone else on your team can help (use screenshare or a VS Code live server to help each other)
   - Ask for help through Zoom and the instructor or associate will be there as soon as possible
