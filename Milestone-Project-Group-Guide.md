@@ -6,7 +6,7 @@ Choose one person to start the repo. They should:
 - `cd` to the chosen parent directory in a terminal
 - Run `npx create-react-app <appname>` to generate some starter code
 - Go into the create-react-app repo with `cd <appname>`
-- Link the repo to the code for the project with the following commands in the create-react-app project terminal (cd into the project):
+- Link the repo to the code for the project with the following commands in your terminal (cd into the project):
   ```
   git add .
   git commit -m "initial commit"
