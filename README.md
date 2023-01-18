@@ -3,19 +3,19 @@ To complete this project successfuly, you will have to use GitHub as a collabora
 
 ## Initial setup
 Choose one person to start the repo. They should:
-- `cd` to the chosen parent directory in a terminal
+- [Create a repo](https://github.com/new) on GitHub for the project
+- Add all the other members as collaborators in the repo's settings
+- On their computer, `cd` to the chosen parent directory in a terminal
 - Run `npx create-react-app <appname>` to generate some starter code
 - Go into the create-react-app repo with `cd <appname>`
 - Link the repo to the code for the project with the following commands in your terminal (cd into the project):
-  ```
-  git add .
-  git commit -m "initial commit"
-  git remote add origin <url_of_repo>
-  git branch -M master
-  git push -u origin master
-- [Create a repo](https://github.com/new) on GitHub for the project
-- Add all the other members as collaborators in the repo's settings
-
+```
+git add .
+git commit -m "initial commit"
+git remote add origin <url_of_new_repo>
+git branch -M master
+git push -u origin master
+```
 ## Example starting folder structure
 A lot of your project structure will come from the pre-existing create-react-app code. If you and your team want a different folder structure than the one suggested here, feel free to experiment!
 - In this example, you would create the **server** folder to hold your Node server code
