@@ -23,7 +23,6 @@ A lot of your project structure will come from the pre-existing create-react-app
 - Certain files and directories will be automatically installed with `npm i`, including **node_modules** and **package-lock.json**
 - No matter which structure you end up with, keep it in mind when importing modules and components
 ```
-
 │ node_modules
 │ server
 ├── index.js
