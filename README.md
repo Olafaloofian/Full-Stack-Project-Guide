@@ -71,7 +71,7 @@ Always make sure to add and commit along the way!
 - Merge the completed feature into main with `git merge <branchname>`
 - Push the main branch to the repo `git push`
 - Depending on the settings of the repo, this might open a pull request for the repo owner to review
-- Tell your team that you have new code in the ***main*** branch
+- Tell your team that you have new code in the **main** branch
 
 ## Updating your code
 When a teammates says **main** has been updated and you want the code in your branch:
