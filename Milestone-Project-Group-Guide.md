@@ -5,7 +5,7 @@ To complete this project successfuly, you will have to use GitHub as a collabora
 Choose one person to start the repo. They should:
 - [Create a repo](https://github.com/new) on GitHub for the project
 - Add all the other members as collaborators in the repo's settings
-- `cd` to the chosen parent directory in a terminal
+- On their computer, `cd` to the chosen parent directory in a terminal
 - Run `npx create-react-app <appname>` to generate some starter code
 - Go into the create-react-app repo with `cd <appname>`
 - Link the repo to the code for the project with the following commands in your terminal (cd into the project):
