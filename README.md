@@ -90,7 +90,7 @@ If you need to resolve merge conflicts:
   - What you have accomplished so far
   - What you are planning on working on
   - Struggles you are facing
-- Try to separate work out as much as possible to avoid merge conflicts. Here are some suggestions:
+- Try to separate work out as much as possible between teammates to avoid merge conflicts. Here are some suggestions:
   - Use a kanban board ([Trello](https://trello.com/) or [GitHub Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project))
   - Have people work in completely different areas of the app (React, Node, database, styling)
   - Make sure not to work in the same file
