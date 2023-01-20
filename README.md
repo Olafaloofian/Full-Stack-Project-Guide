@@ -70,6 +70,7 @@ Always make sure to add and commit along the way!
 - When you have a feature done, push it to the GitHub repo from your branch with `git push`
 - If your branch isn't already on the remote repo use `git push --set-upstream origin <branchname>`
 - When you have a critical feature done in your branch, checkout to the main branch with `git checkout main`
+- Ensure you have the latest updates with `git pull`
 - Merge the completed feature into main with `git merge <branchname>`
 - Push the main branch to the repo `git push`
 - Depending on the settings of the repo, this might open a pull request for the repo owner to review
