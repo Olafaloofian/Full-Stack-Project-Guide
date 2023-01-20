@@ -20,6 +20,7 @@ git push -u origin master
 A lot of your project structure will come from the pre-existing create-react-app code. If you and your team want a different folder structure than the one suggested here, feel free to experiment!
 - In this example, you would create the **server** folder to hold your Node server code
 - Use an **.env** file in the root directory if needed for API keys or other secrets
+- If you have a **.env** file, MAKE SURE to add it in **.gitignore** (simply type `.env` in the `#misc` section)
 - Certain files and directories will be automatically installed with `npm i`, including **node_modules** and **package-lock.json**
 - No matter which structure you end up with, keep it in mind when importing modules and components
 ```
