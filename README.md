@@ -63,30 +63,38 @@ Everyone else should:
 - Go into the new project folder with `cd <appname>`
 - Run `npm install`
 - Add any missing required files or folders from **.gitignore** (may not be needed)
-- If desired, make your own branch with `git checkout -b <branchname>` (you can use your name as a branch name)
+- If desired, make your own branch with `git checkout -b <your_branchname>` (you can use your name as a branch name)
 
-## Developing
+## Developing in your branch
 Always make sure to add and commit along the way!
 - When you have a feature done, push it to the GitHub repo from your branch with `git push`
-- If your branch isn't already on the remote repo use `git push --set-upstream origin <branchname>`
-- When you have a critical feature done in your branch, checkout to the main branch with `git checkout main`
-- Ensure you have the latest updates with `git pull`
-- Merge the completed feature into main with `git merge <branchname>`
-- Push the main branch to the repo `git push`
-- Depending on the settings of the repo, this might open a pull request for the repo owner to review
-- Tell your team that you have new code in the **main** branch
+- If your branch isn't already on the remote repo use `git push --set-upstream origin <your_branchname>`
 
-## Updating your code
+## Pulling your branch from main
 When a teammates says **main** has been updated and you want the code in your branch:
 - Add and commit your work with `git add .` & `git commit -m "<message>"`
 - Run `git pull origin main` while checked out to your branch
+- If you have merge conflicts, refer to the "Merge conflicts" section below
+- Add and commit your work with `git add .` and `git commit -m "commit after merge"`
+
+## Pushing your branch to main
+When you have a critical feature done in your branch and it needs to go into **main**:
+- Checkout to the main branch with `git checkout main`
+- Ensure you have the latest updates with `git pull`
+- Merge your branch into main with `git merge <your_branchname>`
+- If you have merge conflicts, refer to the "Merge conflicts" section below
+- Add and commit your work with `git add .` and `git commit -m "commit after merge"`
+- Push the main branch to the repo `git push origin main`
+- Depending on the settings of the repo, this might open a pull request for the repo owner to review
+- Tell your team that you have new code in the **main** branch\
+- Check back out to your branch if desired with `git checkout <your_branchname>`
 
 ## Merge conflicts
 If you need to resolve merge conflicts:
 - You will get some indication near the conflicted file names in VS Code
 - Try to work through them file by file with your team
   - Click the link at the top for "Accept Current Change" or "Accept Incoming Change" (depending on which is more correct)
-- Once resolved: `git add .`, `git commit -m "commit after merge"`, `git push`
+- Once resolved: `git add .`, `git commit -m "commit after merge"`, and `git push`
 
 ## What to work towards
 Your initial goal should be to establish one line of communication that runs from React->Express->Database->Express->React. Try making a GET endpoint first to render some information from the database in the React UI. Here is a full breakdown of what the app should have:
