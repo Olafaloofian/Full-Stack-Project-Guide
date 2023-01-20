@@ -8,7 +8,7 @@ Choose one person to start the repo. They should:
 - On their computer, `cd` to the chosen parent directory in a terminal
 - Run `npx create-react-app <appname>` to generate some starter code
 - Go into the create-react-app repo with `cd <appname>`
-- Link the repo to the code for the project with the following commands in your terminal (cd into the project):
+- Link the repo to the code for the project with the following commands:
 ```
 git add .
 git commit -m "initial commit"
@@ -85,12 +85,28 @@ If you need to resolve merge conflicts:
   - Click the link at the top for "Accept Current Change" or "Accept Incoming Change" (depending on which is more correct)
 - Once resolved: `git add .`, `git commit -m "commit after merge"`, `git push`
 
+## What to work towards
+Your initial goal should be to establish one line of communication that runs from React->Express->Database->Express->React. Try making a GET endpoint first to render some information from the database in the React UI. Here is a full breakdown of what the app should have:
+- React frontend that has a pleasant and functional UI
+  - Spend a bit of time on styling (you can use a styling library if desired)
+  - Use the [useEffect hook](https://reactjs.org/docs/hooks-effect.html) to make API calls to your own Node server
+  - Use component architecture to create re-useable chunks of code
+- Express backed built on Node.js
+  - Set up routes and endpoints for specific features in your app
+  - Communicate with your React frontend through API calls
+  - Interact with your database though Mongoose or Sequelize
+  - Must have full CRUD functionality with your database
+- Database (either MongoDB or PostgreSQL)
+  - Organize your data into collections or tables
+  - Make sure to have all the fields and columns you need for information
+  - Set up the right data types for each field or column
+
 ## General tips
 - Use the first 5-10 minutes in class for a "standup meeting" and allow each team member to talk about:
   - What you have accomplished so far
   - What you are planning on working on
   - Struggles you are facing
-- Try to segregate work out as much as possible between teammates to avoid merge conflicts. Here are some suggestions:
+- Try to distinctify work out as much as possible between teammates to avoid merge conflicts. Here are some suggestions:
   - Use a kanban board ([Trello](https://trello.com/) or [GitHub Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)) and assign different tasks to different people
   - Have people work in completely separate areas of the app (React, Node, database, styling)
   - Make sure not to work in the same file
