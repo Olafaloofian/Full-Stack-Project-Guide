@@ -70,14 +70,14 @@ Always make sure to add and commit along the way!
 - When you have a feature done, push it to the GitHub repo from your branch with `git push`
 - If your branch isn't already on the remote repo use `git push --set-upstream origin <your_branchname>`
 
-## Pulling your branch from main
+## Pulling code from main into your branch
 When a teammates says **main** has been updated and you want the code in your branch:
 - Add and commit your work with `git add .` & `git commit -m "<message>"`
 - Run `git pull origin main` while checked out to your branch
 - If you have merge conflicts, refer to the "Merge conflicts" section below
 - Add and commit your work with `git add .` and `git commit -m "commit after merge"`
 
-## Pushing your branch to main
+## Pushing code from your branch into main
 When you have a critical feature done in your branch and it needs to go into **main**:
 - Checkout to the main branch with `git checkout main`
 - Ensure you have the latest updates with `git pull`
