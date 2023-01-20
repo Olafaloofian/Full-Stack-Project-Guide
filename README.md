@@ -57,7 +57,7 @@ A lot of your project structure will come from the pre-existing create-react-app
 ```
 
 ## Group setup
-Everyone else should:
+Everyone else who is not the person setting up the GitHub repo should:
 - `cd` to the chosen parent directory in a terminal
 - Clone directly from the repo (do NOT fork) with `git clone <repo_url>`
 - Go into the new project folder with `cd <appname>`
