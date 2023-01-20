@@ -42,6 +42,7 @@ A lot of your project structure will come from the pre-existing create-react-app
 │   ├── <component>.jsx
 │   ├── <component>.css
 ├── App.jsx
+├── App.css
 ├── App.test.js
 ├── index.css
 ├── index.js
