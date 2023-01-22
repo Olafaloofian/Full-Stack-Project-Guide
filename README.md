@@ -76,6 +76,7 @@ When a teammates says **main** has been updated and you want the code in your br
 - Run `git pull origin main` while checked out to your branch
 - If you have merge conflicts, refer to the "Merge conflicts" section below
 - Add and commit your work with `git add .` and `git commit -m "commit after merge"`
+- If there are any new packages being used, run `npm i`
 
 ## Pushing code from your branch into main
 When you have a critical feature done in your branch and it needs to go into **main**:
