@@ -120,7 +120,8 @@ It is possible to serve up the frontend code using your Express server. It just 
 - Near where you have your middlewares, add the following line: `app.use(express.static(path.join(__dirname, "..", "build")));`
   - This assumes the folder structure recommended above. Modify the middle argument path if yours is different.
 - At the very bottom of the file, after all your routes, add the following:
-```app.get('*', (req, res)=>{
+```
+app.get('*', (req, res)=>{
     res.sendFile(path.join(__dirname, '../build/index.html'));
 })
 ```
