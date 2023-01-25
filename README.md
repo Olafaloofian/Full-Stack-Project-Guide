@@ -1,4 +1,4 @@
-# Milestone Project Group Work Guide
+# Milestone Project Group Guide
 To complete this project successfully, you will have to use GitHub as a collaborative tool and develop some strategies for working together with your team. Here are some tips for how to go about it.
 
 ## Initial setup
@@ -97,7 +97,7 @@ If you need to resolve merge conflicts:
   - Click the link at the top for "Accept Current Change" or "Accept Incoming Change" (depending on which is more correct)
 - Once resolved: `git add .`, `git commit -m "commit after merge"`, and `git push`
 
-## What to work towards
+## What to work towards early on
 Your initial goal should be to establish one line of communication that runs from React->Express->Database->Express->React. Try making a GET endpoint first to render some information from the database in the React UI. Here is a full breakdown of what the app should have:
 - React frontend that has a pleasant and functional UI
   - Spend a bit of time on styling (you can use a styling library if desired)
@@ -112,6 +112,30 @@ Your initial goal should be to establish one line of communication that runs fro
   - Organize your data into collections or tables
   - Make sure to have all the fields and columns you need for information
   - Set up the right data types for each field or column
+  
+## Serving up your React code
+It is possible to serve up the frontend code using your Express server. It just takes a few lines of code.
+- In your terminal, run `npm run build`. After a moment, it should produce a new **build** folder in your directory
+- Near the top of your Express main file, add another requirement with `const path = require("path");`
+- Near where you have your middlewares, add the following line: `app.use(express.static(path.join(__dirname, "..", "build")));`
+  - This assumes the folder structure recommended above. Modify the middle argument path if yours is different.
+- At the very bottom of the file, after all your routes, add the following:
+```app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+})```
+Now if you enter your server IP address in the browser while it is running, you should see your React app!
+  
+## Hosting Options
+One of the project requirements is for it to be hosted. It's a bit more tricky to host a full stack project, but will be really cool once you have it! Here are some recommendations for free hosting services:
+- Node server
+  - [Vercel](https://vercel.com/)
+  - [Cyclic](https://app.cyclic.sh/#/join/geshan)
+  - [Render](https://render.com/?utm_source=geshan.com.np)
+- Database
+  - [Atlas (MongoDB)](https://www.mongodb.com/cloud/atlas/register)
+  - [Supabase (PostgreSQL)](https://supabase.com/database)
+- Frontend (React)
+  - [GitHub Pages](https://pages.github.com/)
 
 ## General tips
 - Use the first 5-10 minutes in class for a "standup meeting" and allow each team member to talk about:
