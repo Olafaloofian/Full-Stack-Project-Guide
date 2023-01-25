@@ -122,7 +122,8 @@ It is possible to serve up the frontend code using your Express server. It just 
 - At the very bottom of the file, after all your routes, add the following:
 ```app.get('*', (req, res)=>{
     res.sendFile(path.join(__dirname, '../build/index.html'));
-})```
+})
+```
 Now if you enter your server IP address in the browser while it is running, you should see your React app!
   
 ## Hosting Options
