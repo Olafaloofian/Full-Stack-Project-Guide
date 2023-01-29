@@ -130,14 +130,23 @@ Now if you enter your server IP address in the browser while it is running, you 
 ## Hosting Options
 One of the project requirements is for it to be hosted. It's a bit more tricky to host a full stack project, but will be really cool once you have it! Here are some recommendations for free hosting services:
 - Node server
-  - [Vercel](https://vercel.com/)
   - [Cyclic](https://app.cyclic.sh/#/join/geshan)
   - [Render](https://render.com/?utm_source=geshan.com.np)
+  - [AWS Lightstail [PAID $3.5+/month]](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-quick-start-guide-nodejs)
+  - [Digital Ocean [PAID $4+/month]](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
+  - [Heroku [PAID $5+/month]](https://www.heroku.com/nodejs)
+  - [AWS Beanstalk [PAID $28+/month]](https://aws.amazon.com/getting-started/hands-on/deploy-nodejs-web-app/)
 - Database
   - [Atlas (MongoDB)](https://www.mongodb.com/cloud/atlas/register)
   - [Supabase (PostgreSQL)](https://supabase.com/database)
 - Frontend (React)
   - [GitHub Pages](https://pages.github.com/)
+  - [Vercel](https://vercel.com/)
+- Domains (all paid)
+  - [Namecheap](https://www.namecheap.com/)
+  - [Ionos](https://www.ionos.com/)
+  - [Google Domains](https://domains.google/)
+  - [AWS Route 53](https://aws.amazon.com/getting-started/hands-on/get-a-domain/)
 
 ## General tips
 - Use the first 5-10 minutes in class for a "standup meeting" and allow each team member to talk about:
