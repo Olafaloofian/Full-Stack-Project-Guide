@@ -154,7 +154,7 @@ One of the project requirements is for it to be hosted. It's a bit more tricky t
   - What you are planning on working on
   - Struggles you are facing
 - Try to distinctify work out as much as possible between teammates to avoid merge conflicts. Here are some suggestions:
-  - Use a kanban board ([Trello](https://trello.com/) or [GitHub Project](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)) and assign different tasks to different people
+  - Use a kanban board ([Trello](https://trello.com/) or [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)) and assign different tasks to different people
   - Have people work in completely separate areas of the app (React, Node, database, styling)
   - Make sure not to work in the same file
 - When ready to incorporate a database, try to get it hosted as fast as possible and update the app code with the live connection string
