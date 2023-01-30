@@ -1,4 +1,4 @@
-# Milestone Project Group Guide
+# Full Stack Project Guide
 To complete this project successfully, you will have to use GitHub as a collaborative tool and develop some strategies for working together with your team. Here are some tips for how to go about it.
 
 ## Initial setup
