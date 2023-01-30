@@ -128,17 +128,17 @@ app.get('*', (req, res)=>{
 Now if you enter your server IP address in the browser while it is running, you should see your React app!
   
 ## Hosting Options
-One of the project requirements is for it to be hosted. It's a bit more tricky to host a full stack project, but will be really cool once you have it! Here are some recommendations for free hosting services:
+One of the project requirements is for it to be hosted. It's a bit more tricky to host a full stack project, but will be really cool once you have it! Here are some recommendations for free and paid hosting services:
 - Node server
   - [Cyclic](https://app.cyclic.sh/#/join/geshan)
   - [Render](https://render.com/?utm_source=geshan.com.np)
-  - [AWS Lightstail [PAID $3.5+/month]](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-quick-start-guide-nodejs)
-  - [Digital Ocean [PAID $4+/month]](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04)
-  - [Heroku [PAID $5+/month]](https://www.heroku.com/nodejs)
-  - [AWS Beanstalk [PAID $28+/month]](https://aws.amazon.com/getting-started/hands-on/deploy-nodejs-web-app/)
+  - [AWS Lightstail](https://lightsail.aws.amazon.com/ls/docs/en_us/articles/amazon-lightsail-quick-start-guide-nodejs) [PAID $3.5+/month]
+  - [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-16-04) [PAID $4+/month]
+  - [Heroku](https://www.heroku.com/nodejs) [PAID $5+/month]
+  - [AWS Beanstalk](https://aws.amazon.com/getting-started/hands-on/deploy-nodejs-web-app/) [PAID $28+/month]
 - Database
-  - [Atlas (MongoDB)](https://www.mongodb.com/cloud/atlas/register)
-  - [Supabase (PostgreSQL)](https://supabase.com/database)
+  - [Atlas](https://www.mongodb.com/cloud/atlas/register) (MongoDB)
+  - [Supabase](https://supabase.com/database) (PostgreSQL)
 - Frontend (React)
   - [GitHub Pages](https://pages.github.com/)
   - [Vercel](https://vercel.com/)
