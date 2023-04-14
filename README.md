@@ -92,8 +92,9 @@ When you have a critical feature done in your branch and it needs to go into **m
 
 ## Merge conflicts
 If you need to resolve merge conflicts:
-- You will get some indication near the conflicted file names in VS Code
+- You will get an indication near the conflicted file names in VS Code (left side Explorer panel)
 - Try to work through them file by file with your team
+  - Find where the conflict(s) occurred - they will be marked by a `<<<<<<< HEAD` and special highlighting in VS Code
   - Click the link at the top for "Accept Current Change" or "Accept Incoming Change" (depending on which is more correct)
 - Once resolved: `git add .`, `git commit -m "commit after merge"`, and `git push`
 
