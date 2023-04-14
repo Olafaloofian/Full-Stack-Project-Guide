@@ -74,7 +74,7 @@ Always make sure to add and commit along the way!
 When a teammates says **main** has been updated and you want the code in your branch:
 - Add and commit your work with `git add .` & `git commit -m "<message>"`
 - Run `git pull origin main` while checked out to your branch
-- If you have merge conflicts, refer to the "Merge conflicts" section below
+- If you have merge conflicts, refer to the [Merge conflicts](https://github.com/Olafaloofian/Full-Stack-Project-Guide/blob/master/README.md#merge-conflicts) section below
 - Add and commit your work with `git add .` and `git commit -m "commit after merge"`
 - If there are any new packages being used, run `npm i`
 
@@ -83,7 +83,7 @@ When you have a critical feature done in your branch and it needs to go into **m
 - Checkout to the main branch with `git checkout main`
 - Ensure you have the latest updates with `git pull`
 - Merge your branch into main with `git merge <your_branchname>`
-- If you have merge conflicts, refer to the "Merge conflicts" section below
+- If you have merge conflicts, refer to the [Merge conflicts](https://github.com/Olafaloofian/Full-Stack-Project-Guide/blob/master/README.md#merge-conflicts) section below
 - Add and commit your work with `git add .` and `git commit -m "commit after merge"`
 - Push the main branch to the repo `git push origin main`
 - Depending on the settings of the repo, this might open a pull request for the repo owner to review
