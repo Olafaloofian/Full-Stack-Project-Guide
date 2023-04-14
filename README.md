@@ -129,7 +129,7 @@ app.get('*', (req, res)=>{
 Now if you enter your server IP address in the browser while it is running, you should see your React app!
   
 ## Hosting Options
-One of the project requirements is for it to be hosted. It's a bit more tricky to host a full stack project, but will be really cool once you have it! Here are some recommendations for free and paid hosting services:
+One of the project requirements is for it to be hosted. It's a bit tricky to host a full stack project, but will be really cool once you have it! Here are some recommendations for free and paid hosting services:
 - Node server
   - [Cyclic](https://app.cyclic.sh/#/join/geshan)
   - [Render](https://render.com/?utm_source=geshan.com.np)
