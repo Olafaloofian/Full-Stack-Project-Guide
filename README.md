@@ -87,7 +87,7 @@ When you have a critical feature done in your branch and it needs to go into **m
 - Add and commit your work with `git add .` and `git commit -m "commit after merge"`
 - Push the main branch to the repo `git push origin main`
 - Depending on the settings of the repo, this might open a pull request for the repo owner to review
-- Tell your team that you have new code in the **main** branch\
+- Tell your team that you have new code in the **main** branch
 - Check back out to your branch if desired with `git checkout <your_branchname>`
 
 ## Merge conflicts
